@@ -2,12 +2,16 @@
 
 | Sistema | Descarga | Instalación |
 | --- | --- | --- |
-| Windows | **[Descargar Gota Flow para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.3/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
-| Mac | **[Descargar Gota Flow para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.3/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
+| Windows | **[Descargar Gota Flow para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.4/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
+| Mac | **[Descargar Gota Flow para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.4/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
 
 [Ver versiones y novedades](https://github.com/xG0ta/Gota-Flow-Downloads/releases)
 
 Los paquetes incluyen Python y las bibliotecas que necesita Gota Flow. La primera vez tendrás que activar una licencia y conectar tus cuentas. Para responder comentarios con IA, pulsa **Preparar IA local (1 clic)**; la descarga de Ollama y el modelo es grande. Si falla, usa **Respuestas automáticas… → Instalación manual…** dentro de la app.
+
+Las pestañas Facebook y YouTube guardan borradores independientes. Cada botón publica solo en su plataforma y limpia el archivo de esa pestaña cuando la publicación termina correctamente.
+
+En **Programación e historial** puedes elegir intervalos de minutos o asignar una fecha y hora local distinta a cada archivo. En **Respuestas automáticas** puedes guardar respuestas verificadas para preguntas como horarios y dirección; se guardan por espacio de trabajo.
 
 Las futuras versiones se comprueban al abrir Gota Flow. El botón **Buscar actualizaciones** permite hacerlo en cualquier momento. La app verifica la huella SHA-256 publicada por GitHub antes de instalar. Tus espacios de trabajo, conexiones y palabras prohibidas se guardan fuera del programa y permanecen al actualizar.
 
