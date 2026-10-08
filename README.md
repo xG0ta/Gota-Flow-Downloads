@@ -2,17 +2,15 @@
 
 | Sistema | Descarga | Instalación |
 | --- | --- | --- |
-| Windows | **[Descargar Gota Flow para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.4/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
-| Mac | **[Descargar Gota Flow para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.4/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
+| Windows | **[Descargar para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.11/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
+| Mac | **[Descargar para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.11/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
 
-[Ver versiones y novedades](https://github.com/xG0ta/Gota-Flow-Downloads/releases)
+[Ver todas las versiones y novedades](https://github.com/xG0ta/Gota-Flow-Downloads/releases)
 
-Los paquetes incluyen Python y las bibliotecas que necesita Gota Flow. La primera vez tendrás que activar una licencia y conectar tus cuentas. Para responder comentarios con IA, pulsa **Preparar IA local (1 clic)**; la descarga de Ollama y el modelo es grande. Si falla, usa **Respuestas automáticas… → Instalación manual…** dentro de la app.
+Los ZIP incluyen Python y las bibliotecas de la app. Para empezar, activa una licencia y conecta tus propias cuentas. Si quieres respuestas con IA, elige la carpeta para descargas grandes y pulsa **Preparar IA local (1 clic)**. Ollama y el modelo Qwen3 8B requieren varios gigabytes. La app ofrece instrucciones de instalación manual si falla la descarga.
 
-Las pestañas Facebook y YouTube guardan borradores independientes. Cada botón publica solo en su plataforma y limpia el archivo de esa pestaña cuando la publicación termina correctamente.
+Facebook y YouTube tienen borradores y botones de publicación separados. Puedes programar archivos para una fecha y hora o con intervalos de minutos. Las preferencias, palabras prohibidas y conexiones se guardan fuera de la carpeta del programa para conservarlas al actualizar.
 
-En **Programación e historial** puedes elegir intervalos de minutos o asignar una fecha y hora local distinta a cada archivo. En **Respuestas automáticas** puedes guardar respuestas verificadas para preguntas como horarios y dirección; se guardan por espacio de trabajo.
+**Estado:** versión beta. El ejecutable de Windows pasó pruebas automáticas, pero no está firmado con Authenticode. La app de Mac no está notarizada. El acceso de clientes sin rol de prueba en Meta depende de la aprobación de permisos avanzados. Los comentarios de transmisiones en vivo requieren permisos adicionales. Este repositorio contiene descargas ejecutables, no el código fuente de Gota Flow, tokens ni claves de licencia.
 
-Las futuras versiones se comprueban al abrir Gota Flow. El botón **Buscar actualizaciones** permite hacerlo en cualquier momento. La app verifica la huella SHA-256 publicada por GitHub antes de instalar. Tus espacios de trabajo, conexiones y palabras prohibidas se guardan fuera del programa y permanecen al actualizar.
-
-**Estado:** versión beta. El ejecutable de Windows pasó pruebas automáticas, pero no está firmado con Authenticode. La app de Mac no está notarizada. Instagram y los comentarios de transmisiones en vivo requieren permisos adicionales de Meta; Instagram no se ha probado aún con cuentas reales. Este repositorio contiene solo paquetes ejecutables; el código fuente, los tokens y las claves de licencia no están aquí.
+[Política de privacidad y eliminación de datos](https://sites.google.com/view/gota-flow)
