@@ -2,8 +2,8 @@
 
 | Sistema | Descarga | Instalación |
 | --- | --- | --- |
-| Windows | **[Descargar para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.11/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
-| Mac | **[Descargar para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.11/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
+| Windows | **[Descargar para Windows](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.19/Gota-Flow-Windows-Verificado.zip)** | Descomprime el ZIP y abre `GotaFlow/GotaFlow.exe`. |
+| Mac | **[Descargar para Mac](https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.19/Gota-Flow-Mac.zip)** | Descomprime el ZIP y abre `Gota Flow.app`. |
 
 [Ver todas las versiones y novedades](https://github.com/xG0ta/Gota-Flow-Downloads/releases)
 
