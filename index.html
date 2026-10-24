@@ -1,20 +1,47 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Descargas oficiales de Gota Flow para Windows y Mac.">
-<title>Gota Flow · Descargas oficiales</title>
-<style>
-:root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0a1020;color:#f5f7ff}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px}main{width:min(720px,100%);padding:clamp(24px,5vw,48px);border:1px solid #263859;border-radius:24px;background:#101b31}h1{font-size:clamp(2rem,6vw,3rem);margin:0 0 8px}p{line-height:1.6;color:#c9d5ed}.downloads{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}.button{display:inline-block;padding:14px 20px;border-radius:12px;background:#187bff;color:white;text-decoration:none;font-weight:700}.button:hover{background:#0964df}a{color:#8ebcff}footer{border-top:1px solid #263859;margin-top:28px;padding-top:20px;font-size:.92rem}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gota Flow organiza publicaciones y comentarios de Facebook, Instagram y YouTube desde una aplicación de escritorio.">
+  <title>Gota Flow · Publicaciones y conversaciones</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body><main>
-<h1>Gota Flow</h1>
-<p>Publica en tus páginas de Facebook y canales de YouTube, programa archivos y responde comentarios desde tu computadora.</p>
-<div class="downloads">
-<a class="button" href="https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.20/Gota-Flow-Windows-Verificado.zip">Descargar para Windows</a>
-<a class="button" href="https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.20/Gota-Flow-Mac.zip">Descargar para Mac</a>
-</div>
-<p>Versión 0.1.0-beta.20. Descomprime el ZIP y abre la aplicación. Necesitarás una licencia y autorizar por separado las cuentas que quieras conectar. Las respuestas con IA descargan un modelo local adicional.</p>
-<footer><a href="https://github.com/xG0ta/Gota-Flow-Downloads/releases">Ver versiones y novedades</a> · <a href="https://sites.google.com/view/gota-flow">Política de privacidad y eliminación de datos</a></footer>
-</main></body></html>
+<body>
+  <header><a class="brand" href="./">Gota <span>Flow</span></a><nav aria-label="Navegación principal"><a href="#funciones">Funciones</a><a href="#descargas">Descargas</a><a href="#ayuda">Ayuda</a><a href="privacy.html">Privacidad</a><a href="terms.html">Condiciones</a></nav></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Aplicación de escritorio para Windows y Mac</p>
+      <h1>Publica, programa y atiende comentarios desde un solo espacio.</h1>
+      <p class="lead">Gota Flow reúne páginas de Facebook, cuentas profesionales de Instagram vinculadas a ellas y canales de YouTube. Cada espacio de trabajo conserva sus propias conexiones, borradores y reglas de respuesta.</p>
+      <a class="button" href="#descargas">Descargar Gota Flow</a>
+    </section>
+    <section id="funciones">
+      <p class="eyebrow">Qué puedes hacer</p><h2>Un flujo claro para cada cuenta</h2>
+      <div class="grid">
+        <article><h3>Publicaciones</h3><p>Prepara archivos y textos por plataforma. Publica en Facebook o YouTube desde botones separados y consulta el resultado.</p></article>
+        <article><h3>Programación</h3><p>Asigna fecha y hora a cada archivo o define intervalos. La aplicación muestra el estado y el historial de los envíos.</p></article>
+        <article><h3>Comentarios</h3><p>Configura respuestas por espacio de trabajo y cuenta autorizada. Revisa ejemplos, corrige respuestas y fija límites de actividad.</p></article>
+        <article><h3>IA local</h3><p>Un modelo descargado en tu computadora puede ayudar a redactar respuestas. También puedes configurar respuestas verificadas para preguntas frecuentes.</p></article>
+      </div>
+      <p class="note">TikTok está en preparación. Gota Flow organiza videos y horarios locales y abre la página oficial de carga. La publicación directa y las respuestas en TikTok aún no están aprobadas ni activadas.</p>
+    </section>
+    <section id="descargas" class="panel">
+      <p class="eyebrow">Versión beta disponible</p><h2>Descarga para tu computadora</h2>
+      <p>Versión publicada: <strong>0.1.0-beta.23</strong>. Descomprime el ZIP y abre la aplicación. Necesitarás activar una licencia y autorizar las cuentas que quieras conectar.</p>
+      <div class="actions"><a class="button" href="https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.23/Gota-Flow-Windows-Verificado.zip">Descargar Windows</a><a class="button secondary" href="https://github.com/xG0ta/Gota-Flow-Downloads/releases/download/v0.1.0-beta.23/Gota-Flow-Mac.zip">Descargar Mac</a></div>
+      <p class="small">Consulta las <a href="https://github.com/xG0ta/Gota-Flow-Downloads/releases">versiones y novedades</a>. El ejecutable de Windows no está firmado con Authenticode y la app de Mac no está notarizada.</p>
+    </section>
+    <section id="ayuda">
+      <p class="eyebrow">Ayuda y control</p><h2>Tú decides qué conectar</h2>
+      <div class="grid">
+        <article><h3>¿Se mezclan las cuentas?</h3><p>No. Cada espacio de trabajo guarda por separado sus borradores, páginas, reglas y ejemplos de respuestas.</p></article>
+        <article><h3>¿Dónde quedan los datos?</h3><p>La configuración y el historial de trabajo se guardan en tu computadora. La verificación de licencia utiliza el servicio de Gota Kit. Lee la <a href="privacy.html">política de privacidad</a>.</p></article>
+        <article><h3>¿Cómo desconecto una cuenta?</h3><p>Revoca el acceso en la plataforma correspondiente. Para borrar datos locales, cierra Gota Flow y sigue las <a href="privacy.html#eliminacion">instrucciones de eliminación</a>.</p></article>
+        <article><h3>¿Dónde solicito ayuda?</h3><p>Contacta al responsable del proyecto desde la página <a href="https://www.facebook.com/832215749980648">El Ramonsito</a>. No compartas contraseñas ni códigos de acceso.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><span>Gota Flow · 2026</span><div><a href="privacy.html">Privacidad y eliminación</a><a href="terms.html">Condiciones de uso</a><a href="https://github.com/xG0ta/Gota-Flow-Downloads/releases">Novedades</a></div></footer>
+</body>
+</html>
